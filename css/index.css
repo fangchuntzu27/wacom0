@@ -1,0 +1,224 @@
+html {
+	background-color: #fdfcfa;
+  width: 100%;
+  height: 100%;
+}
+body {
+
+
+}
+
+header {
+
+	/*padding-bottom: 10px;*/		margin: auto;min-width: 1124px;
+
+
+}
+
+.hdr img{
+	width: 245px;height: 100px;
+	float: left;
+	margin:27px 140px 1px 62px;
+}
+
+
+
+}
+  .site-nav ul{
+    margin:0;
+  /*  padding-top: 16px ;padding-left: 30px;上下16左右30*/
+  }
+  .site-nav li{
+    list-style:none;
+    float: left;
+    padding-top: 60px;padding-bottom: 52px;
+    margin-left: 0px;
+    margin-right: 24px;
+  }
+    .site-nav a{
+    display: block;/*what for*/
+    text-decoration: none;
+    color : #3d3d3d;
+    font-size: 16px;
+	font-family: ArialMT Regular,Arial;
+  }
+	.site-nav a:hover{
+
+		color: lightgray;}
+
+  .image img {
+		width: 100%;/*1920*679*/
+		min-width:1124px;
+	margin-bottom:44px}
+
+
+
+.container {
+
+
+padding: 0 50px;
+	margin: auto;
+
+}
+
+
+
+
+article h1{
+	font-size: 16px;
+	font-family: ArialMT Regular,Arial;
+	color: #3e3e3e;
+	padding-top: 60px ;padding-bottom: 45px;
+}
+article p{
+	font-size: 14px;
+	font-family: MicrosoftJhengHeiRegular Regular, 新細明體 ,Arial;
+	color: #3e3e3e;
+	line-height: 30px;
+
+}
+
+.area1 {
+	width: 1124px;height: 410px;
+
+	background-image: url(../img/img_mainproduct_intuosprol.png);
+	margin:auto;/*396*/
+}
+
+.sidebar1 {
+margin-left: 650px;
+padding-right: 70px;
+
+}
+.area2 {
+	width: 1124px;height: 410px;
+	background-image: url(../img/img_mainproduct_intuossmall.png);
+	margin:auto;/*396*/
+}
+
+
+
+.sidebar2 {
+margin-left: 70px;
+padding-right: 650px;
+}
+
+.p {
+margin: auto;
+margin-top: 42px;
+min-width: 1150px;
+
+
+}
+.p img:hover{
+	width: 240px;
+}
+.pic1{
+	padding-bottom: 17px;
+	width: 28%;min-width: 290px;
+	float: left;
+	text-align: center;
+margin-left: 9%;
+}
+.pic{
+	padding-bottom: 17px;
+	width: 28%;min-width: 290px;
+	float: left;
+	text-align: center;
+	margin-left: 1%;
+
+}
+.pic0{
+	padding-bottom: 17px;
+	width: 28%;min-width: 290px;
+	float: left;
+	text-align: center;
+	margin-left: 1%;
+
+}
+
+.pic0 img{
+width: 208px;
+margin-bottom: 12px;
+
+}
+	.pic a{
+
+
+		}
+	.box{
+		float: left;
+
+
+
+	}
+	.p p{
+		margin:0px;/*為何不設這個會有預設margin???*/
+		font-size: 14px;
+		font-family:Arial;
+		color: #6f6f6f;
+	  padding-top: 15px;
+		align-self: center;
+padding-left: 25px;padding-right: 25px;
+	line-height: 20px;
+	}
+	.p h1{
+		margin:0px;/*為何不設這個會有預設margin???*/
+		font-size: 16px;
+		font-family:Arial;
+		color: #6f6f6f;
+padding-bottom: 0px;
+		padding-top: 15px;
+		align-self: center;
+
+	}
+	.pic0{padding-left: 20px;padding-right: 20px;}
+
+.info{
+margin-left: 15%;
+margin-top: 125px;
+min-width: 670px;
+}
+	.about{
+
+width: 110px;
+float: left;
+margin-left: 56px;
+	}
+	.about p{
+font-size: 12px;
+color: #a8a8a8;
+margin: 0;
+line-height:20px;
+
+	}
+	.info a{
+		float: right;
+		margin-top: 120px;
+		width: 59px;
+	}
+	.info img:hover{
+		width: 63px;
+	}
+	.info p:hover{
+		color: #6f6f6f;
+	}
+.con{
+
+	margin-right: 10%;/*這行為何不能直接寫在class ig那裏?????*/
+	float: right;
+}
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #a8a8a8;
+	padding:24px 200px
+
+
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}
